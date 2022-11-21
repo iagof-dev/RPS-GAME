@@ -29,7 +29,7 @@ print('o CPU escolheu: ' + cpu)
 
 ##3 opções
 if (valor == 1 and user_escolha == 'papel'):
-    print('Você perdeu!')
+    print('Você ganhou!')
 
 elif (valor == 1 and user_escolha == 'tesoura'):
     print('Você perdeu!')
