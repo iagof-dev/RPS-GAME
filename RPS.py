@@ -3,7 +3,6 @@ from random import randint
 
 
 print('Rock, Paper, Scissor!')
-user_escolha = ''
 user_escolha = input('Escolha Pedra, Papel ou Tesoura:\n')
 user_escolha = user_escolha.lower()
 
@@ -13,7 +12,6 @@ user_escolha = user_escolha.lower()
 #3 = scissor/tesoura
 
 ##cpu escolhe valor entre 1-3
-valor = int(0)
 valor = randint(1, 3)
 cpu = ''
 if (valor == 1):
